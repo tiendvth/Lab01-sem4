@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 
 <%@ page import="fptaptech.hellot2009m1.entity.Account" %><%
-    Account account = (Account) request.getAttribute("user");
+    Account account = (Account) request.getAttribute("account");
 %>
 <!DOCTYPE html>
 <html>

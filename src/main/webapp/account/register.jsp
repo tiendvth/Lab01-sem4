@@ -51,7 +51,7 @@ Account account = new Account();
     <p>
     <p>
       <label class="w3-text-brown"><b>birthday</b></label>
-      <input class="w3-input w3-border w3-sand" name="birthday" type="datetime-local"></p>
+      <input class="w3-input w3-border w3-sand" name="birthday" type="date"></p>
     <p>
       <button type="submit" class="w3-btn w3-brown">Register</button></p>
   </form>
