@@ -14,6 +14,18 @@ public class Account {
     public Account() {
     }
 
+    @Override
+    public String toString() {
+        return "Account{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", fullName='" + fullName + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", birthday=" + birthday +
+                '}';
+    }
+
     public Account(String username, String password, String fullName, String email, String phone, LocalDate birthday) {
         this.username = username;
         this.password = password;
@@ -63,7 +75,7 @@ public class Account {
         this.phone = phone;
     }
 
-    public LocalDate getBirthday() {
+    public String getBirthday() {
         return birthday;
     }
 
